@@ -1,18 +1,21 @@
 #include <iostream>
 
-
 /*variables*/
 
 bool running;
 // user input
 std::string input;
+std::string arg1;
+
+/*Functions*/
+void start();
 
 int main(int argc, char const *argv[])
 {
     /* code */
     std::cout << "hello world!\n";
     std::cout << "Number of args passed: ";
-    std::cout << "" + argc;
+    std::cout << argc;
     std::cout << "\n";
     std::cout << "first arg passed: ";
     std::cout << argv[1];
@@ -22,23 +25,22 @@ int main(int argc, char const *argv[])
         std::cout << "Sorry, you gave too many arguments. Please use -help for help.\n";
         return 1;
     }
-    input = argv[1];
-    running = true;
+    arg1 = argv[1];
     start();
     return 0;
 }
 
 // Start app 
 void start() {
+    running = true;
     while (running) {
         std::cin >> input;
-
         if (input == "-help") {
-            std::cout << "Testing...";
+            std::cout << "Testing...\n";
             return;
         }
-
-        std::cout << "please specify an argument.\n";
+        std::cout << "please specify a command.\n";
         return;
     }
+    running = false;
 }
