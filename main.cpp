@@ -43,52 +43,11 @@ void start() {
         std::cin >> input;
         if (input == "-help") {
             std::cout << "Testing...\n";
-            wxIMPLEMENT_APP(MyApp);
+            
             return;
         }
         std::cout << "please specify a command.\n";
         return;
     }
     running = false;
-}
-
-
-
-
-class MyApp : public wxApp
-{
-public:
-    virtual bool OnInit();
-};
-
-
-
-
-class MyFrame : public wxFrame
-{
-public:
-    MyFrame();
-
-private:
-    void OnHello(wxCommandEvent& event);
-    void OnExit(wxCommandEvent& event);
-    void OnAbout(wxCommandEvent& event);
-};
-
-
-
-
-enum
-{
-    ID_Hello = 1
-};
-
-
-
-
-bool MyApp::OnInit()
-{
-    MyFrame* frame = new MyFrame();
-    frame->Show(true);
-    return true;
 }
