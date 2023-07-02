@@ -1,0 +1,10 @@
+^F:\DOCUMENTS\RPI_SERVER_APP\INCLUDE\CMAKEFILES\E92E53094A433569F8F0A0A43172A2D6\GENERATE.STAMP.RULE
+setlocal
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SF:/Documents/rpi_server_app/include -BF:/Documents/rpi_server_app/include --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/Documents/rpi_server_app/include/wxWidgets.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

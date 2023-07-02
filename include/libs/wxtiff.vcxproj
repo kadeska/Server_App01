@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C31226C1-1ED1-3E04-9F56-047E6427DD09}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>tiff</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Documents\rpi_server_app\include\lib\vc_x64_dll\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">wxtiff.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">wxtiffd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Documents\rpi_server_app\include\lib\vc_x64_dll\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">wxtiff.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">wxtiff</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswud;F:\Documents\rpi_server_app\include\src\tiff\libtiff;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\src\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE=1;_SCL_SECURE_NO_WARNINGS=1;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE=1;_SCL_SECURE_NO_WARNINGS=1;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswud;F:\Documents\rpi_server_app\include\src\tiff\libtiff;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\src\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswud;F:\Documents\rpi_server_app\include\src\tiff\libtiff;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\src\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu;F:\Documents\rpi_server_app\include\src\tiff\libtiff;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\src\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE=1;_SCL_SECURE_NO_WARNINGS=1;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE=1;_SCL_SECURE_NO_WARNINGS=1;_CRT_NONSTDC_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu;F:\Documents\rpi_server_app\include\src\tiff\libtiff;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\src\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu;F:\Documents\rpi_server_app\include\src\tiff\libtiff;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\src\jpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Documents\rpi_server_app\include\build\cmake\lib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Documents/rpi_server_app/include/build/cmake/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SF:/Documents/rpi_server_app/include -BF:/Documents/rpi_server_app/include --check-stamp-file F:/Documents/rpi_server_app/include/libs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Documents\rpi_server_app\include\build\cmake\lib\expat.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\jpeg.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\nanosvg.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\png.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\regex.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\tiff.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\zlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Documents\rpi_server_app\include\libs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Documents/rpi_server_app/include/build/cmake/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SF:/Documents/rpi_server_app/include -BF:/Documents/rpi_server_app/include --check-stamp-file F:/Documents/rpi_server_app/include/libs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Documents\rpi_server_app\include\build\cmake\lib\expat.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\jpeg.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\nanosvg.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\png.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\regex.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\tiff.cmake;F:\Documents\rpi_server_app\include\build\cmake\lib\zlib.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Documents\rpi_server_app\include\libs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_win32.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_aux.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_close.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_codec.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_color.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_compress.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_dir.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_dirinfo.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_dirread.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_dirwrite.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_dumpmode.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_error.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_extension.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_fax3.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_fax3sm.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_flush.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_getimage.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_jbig.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_jpeg.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_jpeg_12.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_luv.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_lzma.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_lzw.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_next.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_ojpeg.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_open.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_packbits.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_pixarlog.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_predict.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_print.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_read.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_strip.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_swab.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_thunder.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_tile.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_version.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_warning.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_webp.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_write.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_zip.c" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\tiff\libtiff\tif_zstd.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Documents\rpi_server_app\include\ZERO_CHECK.vcxproj">
+      <Project>{910A0645-DE84-3AB8-9644-97A03E437170}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\Documents\rpi_server_app\include\libs\wxjpeg.vcxproj">
+      <Project>{EEA3F324-126D-3CDA-8930-D7B996C668F3}</Project>
+      <Name>wxjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Documents\rpi_server_app\include\libs\wxzlib.vcxproj">
+      <Project>{51CA67BE-C527-3ACA-82DD-5BB054362AB6}</Project>
+      <Name>wxzlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

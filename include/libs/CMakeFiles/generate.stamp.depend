@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+F:/Documents/rpi_server_app/include/build/cmake/lib/CMakeLists.txt
+F:/Documents/rpi_server_app/include/build/cmake/lib/expat.cmake
+F:/Documents/rpi_server_app/include/build/cmake/lib/jpeg.cmake
+F:/Documents/rpi_server_app/include/build/cmake/lib/nanosvg.cmake
+F:/Documents/rpi_server_app/include/build/cmake/lib/png.cmake
+F:/Documents/rpi_server_app/include/build/cmake/lib/regex.cmake
+F:/Documents/rpi_server_app/include/build/cmake/lib/tiff.cmake
+F:/Documents/rpi_server_app/include/build/cmake/lib/zlib.cmake

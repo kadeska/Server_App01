@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\libs\net\CMakeFiles\wxnet.dir\cmake_pch.cxx">
+      <Filter>CMake</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fs_inet.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\ftp.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\http.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\protocol.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\sckaddr.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\sckfile.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\sckipc.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\sckstrm.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\socket.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\url.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\webrequest.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\webrequest_curl.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\sockmsw.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\urlmsw.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\webrequest_winhttp.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fs_inet.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\protocol\file.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\protocol\ftp.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\protocol\http.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\protocol\log.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\protocol\protocol.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\sckaddr.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\sckipc.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\sckstrm.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\socket.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\url.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\webrequest.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu\wx\setup.h">
+      <Filter>Setup Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\genrcdefs.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\libs\net\CMakeFiles\wxnet.dir\Debug\cmake_pch.hxx">
+      <Filter>CMake</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\libs\net\CMakeFiles\wxnet.dir\Release\cmake_pch.hxx">
+      <Filter>CMake</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Documents\rpi_server_app\include\build\cmake\lib\net\CMakeLists.txt">
+      <Filter>CMake</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="F:\Documents\rpi_server_app\include\src\msw\version.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake">
+      <UniqueIdentifier>{8DD14F8F-8929-3384-9F3C-3BE2F351E93C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Headers">
+      <UniqueIdentifier>{BA1527BA-8574-38DF-8EC9-31D8A4ABA5FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Sources">
+      <UniqueIdentifier>{8C1152BF-5BB7-36AB-A101-28F2B615DBCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSW Headers">
+      <UniqueIdentifier>{9FEE6162-A4A2-3F55-9553-88C849BDE20E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSW Sources">
+      <UniqueIdentifier>{668293EE-2FCB-3026-9501-1B52A90BF48F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{BA74B7F0-C6B0-34B6-B1D7-892DAF8E2E72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup Headers">
+      <UniqueIdentifier>{C44A7553-453F-3174-AC7B-8CD0FCD75852}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

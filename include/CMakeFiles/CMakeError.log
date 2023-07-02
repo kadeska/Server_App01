@@ -1,0 +1,774 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-3icwm5
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e06b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e06b3.dir\Debug\\" /Fd"cmTC_e06b3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-3icwm5\src.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-3icwm5\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-3icwm5\cmTC_e06b3.vcxproj]
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-57khee
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c55e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c55e2.dir\Debug\\" /Fd"cmTC_c55e2.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-57khee\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-57khee\cmTC_c55e2.vcxproj]
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-b3zxpr
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4fdd5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4fdd5.dir\Debug\\" /Fd"cmTC_4fdd5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-b3zxpr\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthread.lib' [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-b3zxpr\cmTC_4fdd5.vcxproj]
+
+
+
+Performing C++ SOURCE FILE Test HAVE_HASH_MAP failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-5vsdr4
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_36be5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_HASH_MAP /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_36be5.dir\Debug\\" /Fd"cmTC_36be5.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-5vsdr4\src.cxx"
+F:\VisualStudioIDE\VC\Tools\MSVC\14.35.32215\include\hash_map(22,1): fatal  error C1189: #error:  <hash_map> is deprecated and will be REMOVED. Please use <unordered_map>. You can define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS to suppress this error. [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-5vsdr4\cmTC_36be5.vcxproj]
+
+
+Source file was:
+#include <hash_map>
+#include <hash_set>
+
+
+int main(int argc, char* argv[]) {
+ 
+    std::hash_map<double*, char*, std::hash<double*>, std::equal_to<double*> > test1;
+    std::hash_set<char*, std::hash<char*>, std::equal_to<char*> > test2;
+return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_EXT_HASH_MAP failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-1zsk4s
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_aea51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_EXT_HASH_MAP /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_aea51.dir\Debug\\" /Fd"cmTC_aea51.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-1zsk4s\src.cxx"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-1zsk4s\src.cxx(1,10): fatal  error C1083: Cannot open include file: 'ext/hash_map': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-1zsk4s\cmTC_aea51.vcxproj]
+
+
+Source file was:
+#include <ext/hash_map>
+#include <ext/hash_set>
+
+
+int main(int argc, char* argv[]) {
+ 
+    __gnu_cxx::hash_map<double*, char*, __gnu_cxx::hash<double*>, std::equal_to<double*> > test1;
+    __gnu_cxx::hash_set<char*, __gnu_cxx::hash<char*>, std::equal_to<char*> > test2;
+return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_TR1_UNORDERED_MAP failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-z4ckjt
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7965a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_TR1_UNORDERED_MAP /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7965a.dir\Debug\\" /Fd"cmTC_7965a.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-z4ckjt\src.cxx"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-z4ckjt\src.cxx(1,10): fatal  error C1083: Cannot open include file: 'tr1/unordered_map': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-z4ckjt\cmTC_7965a.vcxproj]
+
+
+Source file was:
+#include <tr1/unordered_map>
+#include <tr1/unordered_set>
+
+
+int main(int argc, char* argv[]) {
+ 
+    std::tr1::unordered_map<double*, char*> test1;
+    std::tr1::unordered_set<char*> test2;
+return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_ATOMIC_BUILTINS failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-752ktq
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a6a5b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_GCC_ATOMIC_BUILTINS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6a5b.dir\Debug\\" /Fd"cmTC_a6a5b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-752ktq\src.c"
+src.obj : error LNK2019: unresolved external symbol __sync_fetch_and_add referenced in function main [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-752ktq\cmTC_a6a5b.vcxproj]
+src.obj : error LNK2019: unresolved external symbol __sync_sub_and_fetch referenced in function main [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-752ktq\cmTC_a6a5b.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-752ktq\Debug\cmTC_a6a5b.exe : fatal error LNK1120: 2 unresolved externals [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-752ktq\cmTC_a6a5b.vcxproj]
+
+
+Source file was:
+
+
+int main(int argc, char* argv[]) {
+ 
+    unsigned int value=0;
+    /* wxAtomicInc doesn't use return value here */
+    __sync_fetch_and_add(&value, 2);
+    __sync_sub_and_fetch(&value, 1);
+    /* but wxAtomicDec does, so mimic that: */
+    volatile unsigned int r2 = __sync_sub_and_fetch(&value, 1);
+return 0; }
+
+Determining if the localtime_r exist failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-qfzhyt
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_acc4d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_acc4d.dir\Debug\\" /Fd"cmTC_acc4d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-qfzhyt\CheckSymbolExists.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-qfzhyt\CheckSymbolExists.c(8,30): error C2065: 'localtime_r': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-qfzhyt\cmTC_acc4d.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localtime_r
+  return ((int*)(&localtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gmtime_r exist failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-7mru5n
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_45d79.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-7mru5n\CheckSymbolExists.c(8,27): error C2065: 'gmtime_r': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-7mru5n\cmTC_45d79.vcxproj]
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45d79.dir\Debug\\" /Fd"cmTC_45d79.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-7mru5n\CheckSymbolExists.c"
+
+
+File CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gmtime_r
+  return ((int*)(&gmtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_PW_GECOS failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-311ea1
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_13ed4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_PW_GECOS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13ed4.dir\Debug\\" /Fd"cmTC_13ed4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-311ea1\src.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-311ea1\src.c(2,10): fatal  error C1083: Cannot open include file: 'pwd.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-311ea1\cmTC_13ed4.vcxproj]
+
+
+Source file was:
+
+#include <pwd.h>
+
+int main()
+{
+  (void)sizeof(((struct passwd *)0)->pw_gecos);
+  return 0;
+}
+
+
+Determining if the ftime exist failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-4e1k6w
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1f666.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f666.dir\Debug\\" /Fd"cmTC_1f666.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4e1k6w\CheckSymbolExists.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4e1k6w\CheckSymbolExists.c(8,24): error C2065: 'ftime': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4e1k6w\cmTC_1f666.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftime
+  return ((int*)(&ftime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the putws exist failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-sf4rr4
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9258d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9258d.dir\Debug\\" /Fd"cmTC_9258d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-sf4rr4\CheckSymbolExists.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-sf4rr4\CheckSymbolExists.c(8,24): error C2065: 'putws': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-sf4rr4\cmTC_9258d.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putws
+  return ((int*)(&putws))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcscasecmp exist failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-q1ywi0
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b2369.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2369.dir\Debug\\" /Fd"cmTC_b2369.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-q1ywi0\CheckSymbolExists.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-q1ywi0\CheckSymbolExists.c(8,29): error C2065: 'wcscasecmp': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-q1ywi0\cmTC_b2369.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscasecmp
+  return ((int*)(&wcscasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsncasecmp exist failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-ctim3k
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d10d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d10d0.dir\Debug\\" /Fd"cmTC_d10d0.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ctim3k\CheckSymbolExists.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ctim3k\CheckSymbolExists.c(8,30): error C2065: 'wcsncasecmp': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ctim3k\cmTC_d10d0.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncasecmp
+  return ((int*)(&wcsncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsrctombs exist failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-6mdl94
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a3a7d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3a7d.dir\Debug\\" /Fd"cmTC_a3a7d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-6mdl94\CheckSymbolExists.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-6mdl94\CheckSymbolExists.c(8,29): error C2065: 'wcsrctombs': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-6mdl94\cmTC_a3a7d.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsrctombs
+  return ((int*)(&wcsrctombs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function fsync exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-9e990t
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_80bb7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fsync /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80bb7.dir\Debug\\" /Fd"cmTC_80bb7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-9e990t\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fsync referenced in function main [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-9e990t\cmTC_80bb7.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-9e990t\Debug\cmTC_80bb7.exe : fatal error LNK1120: 1 unresolved externals [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-9e990t\cmTC_80bb7.vcxproj]
+
+
+
+Determining if the function snprintf exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-bmtbld
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6b7cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snprintf /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b7cd.dir\Debug\\" /Fd"cmTC_6b7cd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-bmtbld\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol snprintf referenced in function main [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-bmtbld\cmTC_6b7cd.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-bmtbld\Debug\cmTC_6b7cd.exe : fatal error LNK1120: 1 unresolved externals [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-bmtbld\cmTC_6b7cd.vcxproj]
+
+
+
+Determining if the function vsnprintf exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-ltw59u
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_efbbd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=vsnprintf /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efbbd.dir\Debug\\" /Fd"cmTC_efbbd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ltw59u\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol vsnprintf referenced in function main [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ltw59u\cmTC_efbbd.vcxproj]
+MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol vsnprintf [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ltw59u\cmTC_efbbd.vcxproj]
+MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol _vsnprintf [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ltw59u\cmTC_efbbd.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ltw59u\Debug\cmTC_efbbd.exe : fatal error LNK1120: 2 unresolved externals [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ltw59u\cmTC_efbbd.vcxproj]
+
+
+
+Determining if the function setpriority exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-imc0ie
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_50ec7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setpriority /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50ec7.dir\Debug\\" /Fd"cmTC_50ec7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-imc0ie\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol setpriority referenced in function main [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-imc0ie\cmTC_50ec7.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-imc0ie\Debug\cmTC_50ec7.exe : fatal error LNK1120: 1 unresolved externals [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-imc0ie\cmTC_50ec7.vcxproj]
+
+
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-4032a5
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9aed7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9aed7.dir\Debug\\" /Fd"cmTC_9aed7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4032a5\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol gettimeofday referenced in function main [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4032a5\cmTC_9aed7.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4032a5\Debug\cmTC_9aed7.exe : fatal error LNK1120: 1 unresolved externals [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4032a5\cmTC_9aed7.vcxproj]
+
+
+
+Determining if the include file tr1/type_traits exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-255lnc
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9247e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9247e.dir\Debug\\" /Fd"cmTC_9247e.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-255lnc\CheckIncludeFile.cxx"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-255lnc\CheckIncludeFile.cxx(1,10): fatal  error C1083: Cannot open include file: 'tr1/type_traits': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-255lnc\cmTC_9247e.vcxproj]
+
+
+
+Determining if the include file langinfo.h exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-866bha
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_04efe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04efe.dir\Debug\\" /Fd"cmTC_04efe.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-866bha\CheckIncludeFile.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-866bha\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'langinfo.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-866bha\cmTC_04efe.vcxproj]
+
+
+
+Determining if the include file sched.h exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-vb1n37
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0cbeb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0cbeb.dir\Debug\\" /Fd"cmTC_0cbeb.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-vb1n37\CheckIncludeFile.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-vb1n37\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sched.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-vb1n37\cmTC_0cbeb.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-u2uy3a
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7b59d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b59d.dir\Debug\\" /Fd"cmTC_7b59d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-u2uy3a\CheckIncludeFile.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-u2uy3a\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-u2uy3a\cmTC_7b59d.vcxproj]
+
+
+
+Determining if the include file wcstr.h exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-ah3nn6
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4bbe8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4bbe8.dir\Debug\\" /Fd"cmTC_4bbe8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ah3nn6\CheckIncludeFile.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ah3nn6\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'wcstr.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ah3nn6\cmTC_4bbe8.vcxproj]
+
+
+
+Performing C++ SOURCE FILE Test wxTEST_TZ_timezone failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-q18dcy
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_096f0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D wxTEST_TZ_timezone /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_096f0.dir\Debug\\" /Fd"cmTC_096f0.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-q18dcy\src.cxx"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-q18dcy\src.cxx(7,18): error C2065: 'timezone': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-q18dcy\cmTC_096f0.vcxproj]
+
+
+Source file was:
+#include <time.h>
+
+
+int main(int argc, char* argv[]) {
+ 
+            int tz;
+            tz = timezone;
+return 0; }
+
+Performing C SOURCE FILE Test WX_GMTOFF_IN_TM failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-yaqelx
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bd4c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-yaqelx\src.c(6,34): error C2039: 'tm_gmtoff': is not a member of 'tm' [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-yaqelx\cmTC_bd4c7.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wtime.h(26,8): message : see declaration of 'tm' [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-yaqelx\cmTC_bd4c7.vcxproj]
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WX_GMTOFF_IN_TM /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd4c7.dir\Debug\\" /Fd"cmTC_bd4c7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-yaqelx\src.c"
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct tm *)0)->tm_gmtoff);
+  return 0;
+}
+
+
+Determining if the dlopen exist failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-wr27f2
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_27bae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27bae.dir\Debug\\" /Fd"cmTC_27bae.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-wr27f2\CheckSymbolExists.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-wr27f2\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-wr27f2\cmTC_27bae.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/epoll.h exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-7bie8q
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e3471.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-7bie8q\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/epoll.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-7bie8q\cmTC_e3471.vcxproj]
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3471.dir\Debug\\" /Fd"cmTC_e3471.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-7bie8q\CheckIncludeFile.c"
+
+
+
+Determining if the include file sys/select.h exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-a1nrup
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2a798.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-a1nrup\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/select.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-a1nrup\cmTC_2a798.vcxproj]
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a798.dir\Debug\\" /Fd"cmTC_2a798.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-a1nrup\CheckIncludeFile.c"
+
+
+
+Determining if the include file sys/inotify.h exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-1ihnia
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_52032.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-1ihnia\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/inotify.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-1ihnia\cmTC_52032.vcxproj]
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52032.dir\Debug\\" /Fd"cmTC_52032.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-1ihnia\CheckIncludeFile.c"
+
+
+
+Determining if the include file sys/event.h exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-ihfz8a
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0bcf9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ihfz8a\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'sys/event.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ihfz8a\cmTC_0bcf9.vcxproj]
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0bcf9.dir\Debug\\" /Fd"cmTC_0bcf9.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ihfz8a\CheckIncludeFile.c"
+
+
+
+Determining if the include file xlocale.h exists failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-gru9ak
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_98d70.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98d70.dir\Debug\\" /Fd"cmTC_98d70.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-gru9ak\CheckIncludeFile.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-gru9ak\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'xlocale.h': No such file or directory [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-gru9ak\cmTC_98d70.vcxproj]
+
+
+
+Determining size of locale_t failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-53x92y
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_29b03.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  LOCALE_T.c
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-53x92y\LOCALE_T.c(30,12): error C2065: 'locale_t': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-53x92y\cmTC_29b03.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-53x92y\LOCALE_T.c(31,12): error C2065: 'locale_t': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-53x92y\cmTC_29b03.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-53x92y\LOCALE_T.c(32,12): error C2065: 'locale_t': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-53x92y\cmTC_29b03.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-53x92y\LOCALE_T.c(33,12): error C2065: 'locale_t': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-53x92y\cmTC_29b03.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-53x92y\LOCALE_T.c(34,12): error C2065: 'locale_t': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-53x92y\cmTC_29b03.vcxproj]
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29b03.dir\Debug\\" /Fd"cmTC_29b03.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-53x92y\LOCALE_T.c"
+
+
+LOCALE_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "locale.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(locale_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ssize_t failed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-w9rzw0
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8d219.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SSIZE_T.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d219.dir\Debug\\" /Fd"cmTC_8d219.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-w9rzw0\SSIZE_T.c"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-w9rzw0\SSIZE_T.c(29,12): error C2065: 'ssize_t': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-w9rzw0\cmTC_8d219.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-w9rzw0\SSIZE_T.c(30,12): error C2065: 'ssize_t': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-w9rzw0\cmTC_8d219.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-w9rzw0\SSIZE_T.c(31,12): error C2065: 'ssize_t': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-w9rzw0\cmTC_8d219.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-w9rzw0\SSIZE_T.c(32,12): error C2065: 'ssize_t': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-w9rzw0\cmTC_8d219.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-w9rzw0\SSIZE_T.c(33,12): error C2065: 'ssize_t': undeclared identifier [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-w9rzw0\cmTC_8d219.vcxproj]
+
+
+SSIZE_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

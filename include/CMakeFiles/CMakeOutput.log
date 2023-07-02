@@ -1,0 +1,837 @@
+The system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+Build started 7/1/2023 3:43:09 PM.
+Included response file: F:\VisualStudioIDE\MSBuild\Current\Bin\amd64\MSBuild.rsp
+
+Project "F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\"
+  Using normalized configuration "Release"
+ClCompile:
+  F:\VisualStudioIDE\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\CL.exe /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  F:\VisualStudioIDE\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\lib" /LIBPATH:"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdC\CompilerIdC.exe
+AppLocalFromInstalled:
+  pwsh.exe -ExecutionPolicy Bypass -noprofile -File "F:\Github\ConsoleApplication01\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdC\CompilerIdC.exe" "F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
+  The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "F:\Github\ConsoleApplication01\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdC\CompilerIdC.exe" "F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"" exited with code 9009.
+  "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "F:\Github\ConsoleApplication01\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdC\CompilerIdC.exe" "F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  Set-Content : Could not find file 
+  'F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdC\Debug\vcpkg.applocal.log'.
+  At F:\Github\ConsoleApplication01\vcpkg\scripts\buildsystems\msbuild\applocal.ps1:12 char:5
+  +     Set-Content -Path $copiedFilesLog -Value "" -Encoding UTF8
+  +     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      + CategoryInfo          : ObjectNotFound: (F:\Documents\rp...kg.applocal.log:String) [Set-Content], FileNotFoundEx 
+     ception
+      + FullyQualifiedErrorId : GetContentWriterFileNotFoundError,Microsoft.PowerShell.Commands.SetContentCommand
+   
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=F:\VisualStudioIDE\VC\Tools\MSVC\14.35.32215\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.09
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "F:/Documents/rpi_server_app/include/CMakeFiles/3.25.1-msvc1/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+Build started 7/1/2023 3:43:13 PM.
+Included response file: F:\VisualStudioIDE\MSBuild\Current\Bin\amd64\MSBuild.rsp
+
+Project "F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\"
+  Using normalized configuration "Release"
+ClCompile:
+  F:\VisualStudioIDE\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\CL.exe /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  F:\VisualStudioIDE\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\lib" /LIBPATH:"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdCXX\CompilerIdCXX.exe
+AppLocalFromInstalled:
+  pwsh.exe -ExecutionPolicy Bypass -noprofile -File "F:\Github\ConsoleApplication01\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdCXX\CompilerIdCXX.exe" "F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
+  The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "F:\Github\ConsoleApplication01\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdCXX\CompilerIdCXX.exe" "F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"" exited with code 9009.
+  "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "F:\Github\ConsoleApplication01\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdCXX\CompilerIdCXX.exe" "F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  Set-Content : Could not find file 
+  'F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdCXX\Debug\vcpkg.applocal.log'.
+  At F:\Github\ConsoleApplication01\vcpkg\scripts\buildsystems\msbuild\applocal.ps1:12 char:5
+  +     Set-Content -Path $copiedFilesLog -Value "" -Encoding UTF8
+  +     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      + CategoryInfo          : ObjectNotFound: (F:\Documents\rp...kg.applocal.log:String) [Set-Content], FileNotFoundEx 
+     ception
+      + FullyQualifiedErrorId : GetContentWriterFileNotFoundError,Microsoft.PowerShell.Commands.SetContentCommand
+   
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=F:\VisualStudioIDE\VC\Tools\MSVC\14.35.32215\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "F:\Documents\rpi_server_app\include\CMakeFiles\3.25.1-msvc1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.81
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "F:/Documents/rpi_server_app/include/CMakeFiles/3.25.1-msvc1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-42uuh8
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d8d6f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8d6f.dir\Debug\\" /Fd"cmTC_d8d6f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+  cmTC_d8d6f.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-42uuh8\Debug\cmTC_d8d6f.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-ba13w6
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_deeeb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCXXCompilerABI.cpp
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_deeeb.dir\Debug\\" /Fd"cmTC_deeeb.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_deeeb.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-ba13w6\Debug\cmTC_deeeb.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-dfh15m
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e4fd3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4fd3.dir\Debug\\" /Fd"cmTC_e4fd3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-dfh15m\CheckIncludeFile.c"
+  cmTC_e4fd3.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-dfh15m\Debug\cmTC_e4fd3.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-cpe0oa
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b4a0f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4a0f.dir\Debug\\" /Fd"cmTC_b4a0f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-cpe0oa\CheckIncludeFile.c"
+  cmTC_b4a0f.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-cpe0oa\Debug\cmTC_b4a0f.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-l20p52
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_45113.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45113.dir\Debug\\" /Fd"cmTC_45113.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-l20p52\CheckIncludeFile.c"
+  cmTC_45113.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-l20p52\Debug\cmTC_45113.exe
+
+
+
+Determining size of wchar_t passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-4wd3i4
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_073b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_WCHAR_T.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_073b5.dir\Debug\\" /Fd"cmTC_073b5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4wd3i4\SIZEOF_WCHAR_T.c"
+  cmTC_073b5.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4wd3i4\Debug\cmTC_073b5.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_WINHTTP_H succeeded with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-x1xzyk
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0dcd7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_WINHTTP_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0dcd7.dir\Debug\\" /Fd"cmTC_0dcd7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-x1xzyk\src.c"
+  cmTC_0dcd7.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-x1xzyk\Debug\cmTC_0dcd7.exe
+
+
+Source file was:
+#include <windows.h>
+                                 #include <winhttp.h>
+                                 int main(){return 0;}
+
+Determining if the include file d2d1.h exists passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-s40vt4
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a06a8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a06a8.dir\Debug\\" /Fd"cmTC_a06a8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-s40vt4\CheckIncludeFile.c"
+  cmTC_a06a8.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-s40vt4\Debug\cmTC_a06a8.exe
+
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-78ovsc
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5fe6c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  STDC_HEADERS.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fe6c.dir\Debug\\" /Fd"cmTC_5fe6c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-78ovsc\STDC_HEADERS.c"
+  cmTC_5fe6c.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-78ovsc\Debug\cmTC_5fe6c.exe
+
+
+
+Performing C++ SOURCE FILE Test HAVE_STD_STRING_COMPARE succeeded with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-zr47dd
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_07307.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STD_STRING_COMPARE /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_07307.dir\Debug\\" /Fd"cmTC_07307.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\src.cxx"
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\src.cxx(7,16): warning C4834: discarding return value of function with 'nodiscard' attribute [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\cmTC_07307.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\src.cxx(8,16): warning C4834: discarding return value of function with 'nodiscard' attribute [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\cmTC_07307.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\src.cxx(9,16): warning C4834: discarding return value of function with 'nodiscard' attribute [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\cmTC_07307.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\src.cxx(10,16): warning C4834: discarding return value of function with 'nodiscard' attribute [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\cmTC_07307.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\src.cxx(11,16): warning C4834: discarding return value of function with 'nodiscard' attribute [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\cmTC_07307.vcxproj]
+F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\src.cxx(12,16): warning C4834: discarding return value of function with 'nodiscard' attribute [F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\cmTC_07307.vcxproj]
+  cmTC_07307.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zr47dd\Debug\cmTC_07307.exe
+
+
+Source file was:
+#include <string>
+
+
+int main(int argc, char* argv[]) {
+ 
+    std::string foo, bar;
+    foo.compare(bar);
+    foo.compare(1, 1, bar);
+    foo.compare(1, 1, bar, 1, 1);
+    foo.compare("");
+    foo.compare(1, 1, "");
+    foo.compare(1, 1, "", 2);
+return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_STD_WSTRING succeeded with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-hm3itp
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_45efd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STD_WSTRING /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_45efd.dir\Debug\\" /Fd"cmTC_45efd.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-hm3itp\src.cxx"
+  cmTC_45efd.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-hm3itp\Debug\cmTC_45efd.exe
+
+
+Source file was:
+#include <string>
+
+
+int main(int argc, char* argv[]) {
+ std::wstring s;
+return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_STD_UNORDERED_MAP succeeded with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-5gvxlj
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_59864.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STD_UNORDERED_MAP /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_59864.dir\Debug\\" /Fd"cmTC_59864.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-5gvxlj\src.cxx"
+  cmTC_59864.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-5gvxlj\Debug\cmTC_59864.exe
+
+
+Source file was:
+#include <unordered_map>
+#include <unordered_set>
+
+
+int main(int argc, char* argv[]) {
+ 
+    std::unordered_map<double*, char*> test1;
+    std::unordered_set<char*> test2;
+return 0; }
+
+Performing C++ SOURCE FILE Test wxSIZE_T_IS_NOT_UINT succeeded with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-2i9xoz
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fd53a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D wxSIZE_T_IS_NOT_UINT /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fd53a.dir\Debug\\" /Fd"cmTC_fd53a.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-2i9xoz\src.cxx"
+  cmTC_fd53a.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-2i9xoz\Debug\cmTC_fd53a.exe
+
+
+Source file was:
+#include <stddef.h>
+
+
+int main(int argc, char* argv[]) {
+ return 0; }
+
+            struct Foo { void foo(size_t); void foo(unsigned int); };
+
+            int bar() {
+return 0; }
+
+Performing C++ SOURCE FILE Test wxSIZE_T_IS_NOT_ULONG succeeded with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-4549pv
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_60b00.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D wxSIZE_T_IS_NOT_ULONG /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_60b00.dir\Debug\\" /Fd"cmTC_60b00.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4549pv\src.cxx"
+  cmTC_60b00.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4549pv\Debug\cmTC_60b00.exe
+
+
+Source file was:
+#include <stddef.h>
+
+
+int main(int argc, char* argv[]) {
+ return 0; }
+
+            struct Foo { void foo(size_t); void foo(unsigned long); };
+
+            int bar() {
+return 0; }
+
+Performing C++ SOURCE FILE Test wxWCHAR_T_IS_REAL_TYPE succeeded with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-de7dpt
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_455a2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D wxWCHAR_T_IS_REAL_TYPE /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_455a2.dir\Debug\\" /Fd"cmTC_455a2.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-de7dpt\src.cxx"
+  cmTC_455a2.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-de7dpt\Debug\cmTC_455a2.exe
+
+
+Source file was:
+#include <wchar.h>
+
+
+int main(int argc, char* argv[]) {
+ return 0; }
+
+            struct Foo { void foo(wchar_t);
+                         void foo(unsigned short);
+                         void foo(unsigned int);
+                         void foo(unsigned long); };
+
+            int bar() {
+return 0; }
+
+Determining if the wcsftime exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-8b5yp5
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9ff5b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9ff5b.dir\Debug\\" /Fd"cmTC_9ff5b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-8b5yp5\CheckSymbolExists.c"
+  cmTC_9ff5b.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-8b5yp5\Debug\cmTC_9ff5b.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsftime
+  return ((int*)(&wcsftime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wprintf exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-i2de76
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8ddc4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8ddc4.dir\Debug\\" /Fd"cmTC_8ddc4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-i2de76\CheckSymbolExists.c"
+  cmTC_8ddc4.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-i2de76\Debug\cmTC_8ddc4.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wprintf
+  return ((int*)(&wprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fputws exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-dmicsq
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c92b8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c92b8.dir\Debug\\" /Fd"cmTC_c92b8.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-dmicsq\CheckSymbolExists.c"
+  cmTC_c92b8.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-dmicsq\Debug\cmTC_c92b8.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fputws
+  return ((int*)(&fputws))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vswprintf exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-4gg7wf
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4d4b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d4b5.dir\Debug\\" /Fd"cmTC_4d4b5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4gg7wf\CheckSymbolExists.c"
+  cmTC_4d4b5.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-4gg7wf\Debug\cmTC_4d4b5.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vswprintf
+  return ((int*)(&vswprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vswscanf exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-i78iqr
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_62cd3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62cd3.dir\Debug\\" /Fd"cmTC_62cd3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-i78iqr\CheckSymbolExists.c"
+  cmTC_62cd3.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-i78iqr\Debug\cmTC_62cd3.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vswscanf
+  return ((int*)(&vswscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsdup exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-98or6a
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a44bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a44bd.dir\Debug\\" /Fd"cmTC_a44bd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-98or6a\CheckSymbolExists.c"
+  cmTC_a44bd.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-98or6a\Debug\cmTC_a44bd.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsdup
+  return ((int*)(&wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsnlen exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-0s4epf
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_46579.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46579.dir\Debug\\" /Fd"cmTC_46579.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-0s4epf\CheckSymbolExists.c"
+  cmTC_46579.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-0s4epf\Debug\cmTC_46579.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsnlen
+  return ((int*)(&wcsnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcstoull exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-nvyln2
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_143b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_143b3.dir\Debug\\" /Fd"cmTC_143b3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-nvyln2\CheckSymbolExists.c"
+  cmTC_143b3.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-nvyln2\Debug\cmTC_143b3.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcstoull
+  return ((int*)(&wcstoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslen exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-2ude42
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_65d24.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65d24.dir\Debug\\" /Fd"cmTC_65d24.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-2ude42\CheckSymbolExists.c"
+  cmTC_65d24.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-2ude42\Debug\cmTC_65d24.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslen
+  return ((int*)(&wcslen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function strnlen exists passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-maqw93
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d267c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strnlen /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d267c.dir\Debug\\" /Fd"cmTC_d267c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-maqw93\CheckFunctionExists.c"
+  cmTC_d267c.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-maqw93\Debug\cmTC_d267c.exe
+
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-netd1y
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0c903.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoull /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c903.dir\Debug\\" /Fd"cmTC_0c903.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-netd1y\CheckFunctionExists.c"
+  cmTC_0c903.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-netd1y\Debug\cmTC_0c903.exe
+
+
+
+Determining if the vsscanf exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-dtaxx6
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_707a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_707a4.dir\Debug\\" /Fd"cmTC_707a4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-dtaxx6\CheckSymbolExists.c"
+  cmTC_707a4.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-dtaxx6\Debug\cmTC_707a4.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsscanf
+  return ((int*)(&vsscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the round exist passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-zlp1ne
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_530a3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_530a3.dir\Debug\\" /Fd"cmTC_530a3.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zlp1ne\CheckSymbolExists.cxx"
+  cmTC_530a3.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-zlp1ne\Debug\cmTC_530a3.exe
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef round
+  return ((int*)(&round))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file type_traits exists passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-1yvkug
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ba65a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ba65a.dir\Debug\\" /Fd"cmTC_ba65a.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-1yvkug\CheckIncludeFile.cxx"
+  cmTC_ba65a.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-1yvkug\Debug\cmTC_ba65a.exe
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-3x1j5c
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bed5b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bed5b.dir\Debug\\" /Fd"cmTC_bed5b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-3x1j5c\CheckIncludeFile.c"
+  cmTC_bed5b.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-3x1j5c\Debug\cmTC_bed5b.exe
+
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-uwr6ta
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_53ba7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53ba7.dir\Debug\\" /Fd"cmTC_53ba7.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-uwr6ta\CheckIncludeFile.c"
+  cmTC_53ba7.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-uwr6ta\Debug\cmTC_53ba7.exe
+
+
+
+Performing C++ SOURCE FILE Test wxTEST_TZ__timezone succeeded with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-uz0ag1
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5ebf7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D wxTEST_TZ__timezone /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5ebf7.dir\Debug\\" /Fd"cmTC_5ebf7.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-uz0ag1\src.cxx"
+  cmTC_5ebf7.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-uz0ag1\Debug\cmTC_5ebf7.exe
+
+
+Source file was:
+#include <time.h>
+
+
+int main(int argc, char* argv[]) {
+ 
+            int tz;
+            tz = _timezone;
+return 0; }
+
+Determining size of size_t passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-7vmbu1
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a025c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_SIZE_T.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a025c.dir\Debug\\" /Fd"cmTC_a025c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-7vmbu1\SIZEOF_SIZE_T.c"
+  cmTC_a025c.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-7vmbu1\Debug\cmTC_a025c.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-u9f2iu
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c1f00.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_INT.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1f00.dir\Debug\\" /Fd"cmTC_c1f00.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-u9f2iu\SIZEOF_INT.c"
+  cmTC_c1f00.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-u9f2iu\Debug\cmTC_c1f00.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-dz4f6q
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_57aad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_LONG.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57aad.dir\Debug\\" /Fd"cmTC_57aad.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-dz4f6q\SIZEOF_LONG.c"
+  cmTC_57aad.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-dz4f6q\Debug\cmTC_57aad.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-hmszqt
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5e0ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_SHORT.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e0ce.dir\Debug\\" /Fd"cmTC_5e0ce.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-hmszqt\SIZEOF_SHORT.c"
+  cmTC_5e0ce.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-hmszqt\Debug\cmTC_5e0ce.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: F:/Documents/rpi_server_app/include/CMakeFiles/CMakeScratch/TryCompile-lwtqy3
+
+Run Build Command(s):F:/VisualStudioIDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_417f4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  SIZEOF_LONG_LONG.c
+  cl /c /I"F:\Github\ConsoleApplication01\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D __WINDOWS__ /D __WIN32__ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_417f4.dir\Debug\\" /Fd"cmTC_417f4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-lwtqy3\SIZEOF_LONG_LONG.c"
+  cmTC_417f4.vcxproj -> F:\Documents\rpi_server_app\include\CMakeFiles\CMakeScratch\TryCompile-lwtqy3\Debug\cmTC_417f4.exe
+
+
+

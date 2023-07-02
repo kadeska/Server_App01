@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>F:\Documents\rpi_server_app\include\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Documents\rpi_server_app\include\lib\vc_x64_dll\wxbase32ud_vc_custom.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Documents\rpi_server_app\include\lib\vc_x64_dll\wxmsw32ud_core_vc_custom.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

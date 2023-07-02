@@ -1,0 +1,5 @@
+﻿  Building Custom Rule F:/Documents/rpi_server_app/include/build/cmake/samples/CMakeLists.txt
+  cmake_pch.cxx
+  dataview.cpp
+  mymodels.cpp
+  dataview.vcxproj -> F:\Documents\rpi_server_app\include\lib\vc_x64_dll\dataview.exe

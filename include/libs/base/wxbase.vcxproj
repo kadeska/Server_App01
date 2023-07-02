@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BB52A3AD-9B9E-3C42-B2D0-6EDC9B5BEDFE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>base</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Documents\rpi_server_app\include\lib\vc_x64_dll\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">wxbase.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">wxbase32ud_vc_custom</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Documents\rpi_server_app\include\lib\vc_x64_dll\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">wxbase.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">wxbase32u_vc_custom</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\3rdparty\pcre\src\wx;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswud;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/Documents/rpi_server_app/include/libs/base/wxbase.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WXDLLNAME=wxbase32ud_vc_custom;WXBUILDING;wxUSE_GUI=0;wxUSE_BASE=1;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;_WINSOCK_DEPRECATED_NO_WARNINGS=1;__WXMSW__;WXMAKINGDLL_BASE;WX_PRECOMP;CMAKE_INTDIR="Debug";wxbase_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;WXDLLNAME=wxbase32ud_vc_custom;WXBUILDING;wxUSE_GUI=0;wxUSE_BASE=1;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;_WINSOCK_DEPRECATED_NO_WARNINGS=1;__WXMSW__;WXMAKINGDLL_BASE;WX_PRECOMP;CMAKE_INTDIR=\"Debug\";wxbase_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\3rdparty\pcre\src\wx;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswud;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\3rdparty\pcre\src\wx;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswud;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;shlwapi.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;version.lib;ws2_32.lib;wininet.lib;oleacc.lib;uxtheme.lib;..\..\lib\vc_x64_dll\wxzlibd.lib;..\..\lib\vc_x64_dll\wxregexud.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Documents/rpi_server_app/include/lib/vc_x64_dll/wxbase32ud.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Documents/rpi_server_app/include/lib/vc_x64_dll/wxbase32ud_vc_custom.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\3rdparty\pcre\src\wx;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/Documents/rpi_server_app/include/libs/base/wxbase.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WXDLLNAME=wxbase32u_vc_custom;WXBUILDING;wxUSE_GUI=0;wxUSE_BASE=1;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;_WINSOCK_DEPRECATED_NO_WARNINGS=1;__WXMSW__;WXMAKINGDLL_BASE;WX_PRECOMP;CMAKE_INTDIR="Release";wxbase_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;WXDLLNAME=wxbase32u_vc_custom;WXBUILDING;wxUSE_GUI=0;wxUSE_BASE=1;UNICODE;_UNICODE;_CRT_SECURE_NO_DEPRECATE=1;_CRT_NON_CONFORMING_SWPRINTFS=1;_SCL_SECURE_NO_WARNINGS=1;_WINSOCK_DEPRECATED_NO_WARNINGS=1;__WXMSW__;WXMAKINGDLL_BASE;WX_PRECOMP;CMAKE_INTDIR=\"Release\";wxbase_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\3rdparty\pcre\src\wx;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\3rdparty\pcre\src\wx;F:\Documents\rpi_server_app\include\src\zlib;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;shlwapi.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;version.lib;ws2_32.lib;wininet.lib;oleacc.lib;uxtheme.lib;..\..\lib\vc_x64_dll\wxzlib.lib;..\..\lib\vc_x64_dll\wxregexu.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Documents/rpi_server_app/include/lib/vc_x64_dll/wxbase32u.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Documents/rpi_server_app/include/lib/vc_x64_dll/wxbase32u_vc_custom.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Documents\rpi_server_app\include\build\cmake\lib\base\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Documents/rpi_server_app/include/build/cmake/lib/base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SF:/Documents/rpi_server_app/include -BF:/Documents/rpi_server_app/include --check-stamp-file F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Documents\rpi_server_app\include\libs\base\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Documents/rpi_server_app/include/build/cmake/lib/base/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SF:/Documents/rpi_server_app/include -BF:/Documents/rpi_server_app/include --check-stamp-file F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Documents\rpi_server_app\include\libs\base\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\libs\base\CMakeFiles\wxbase.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/wxbase.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/wxbase.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\any.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\appbase.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\arcall.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\arcfind.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\archive.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\arrstr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\base64.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\clntdata.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\cmdline.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\config.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\convauto.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\datetime.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\datetimefmt.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\datstrm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\dircmn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\dynlib.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\dynload.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\encconv.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\evtloopcmn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\extended.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\ffile.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\file.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fileback.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fileconf.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\filefn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\filename.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\filesys.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\filtall.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\filtfind.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fmapbase.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fs_arc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fs_filter.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\hash.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\hashmap.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\init.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\intl.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\ipcbase.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\languageinfo.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\list.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\log.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\longlong.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\memory.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\mimecmn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\module.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\mstream.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\numformatter.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\object.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\platinfo.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\powercmn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\process.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\regex.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\secretstore.cpp">
+      <ObjectFileName>$(IntDir)/__/__/src/common/secretstore.cpp.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stdpbase.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\sstream.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stdstream.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stopwatch.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\strconv.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stream.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\string.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stringimpl.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stringops.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\strvararg.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\sysopt.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\tarstrm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\textbuf.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\textfile.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\threadinfo.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\time.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\timercmn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\timerimpl.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\tokenzr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\translation.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\txtstrm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\unichar.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\uri.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\ustring.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\variant.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\wfstream.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\wxcrt.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\wxprintf.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\xlocale.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\xti.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\xtistrm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\zipstrm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\zstream.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fswatchercmn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\generic\fswatcherg.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\lzmastream.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\uilocale.cpp">
+      <ObjectFileName>$(IntDir)/__/__/src/common/uilocale.cpp.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\afterstd.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\any.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\anystr.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\app.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\apptrait.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\archive.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\arrimpl.cpp" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\arrstr.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\atomic.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\base64.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\beforestd.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\buffer.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\build.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\chartype.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\checkeddelete.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\chkconf.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\clntdata.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\cmdargs.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\cmdline.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\compiler.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\confbase.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\config.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\convauto.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\containr.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\cpp.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\crt.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\datetime.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\datstrm.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dde.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\debug.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\defs.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dir.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dlimpexp.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dlist.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dynarray.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dynlib.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dynload.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\encconv.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\event.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\eventfilter.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\evtloop.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\evtloopsrc.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\except.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\features.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\flags.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ffile.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\file.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fileconf.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\filefn.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\filename.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\filesys.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fontenc.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fontmap.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fs_arc.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fs_filter.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fs_mem.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fs_zip.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\hash.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\hashmap.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\hashset.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\iconloc.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\init.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\intl.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\iosfwrap.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ioswrap.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ipc.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ipcbase.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\kbdstate.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\language.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\link.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\list.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\listimpl.cpp" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\log.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\longlong.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\math.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\memconf.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\memory.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\memtext.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\mimetype.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\module.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\mousestate.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msgout.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msgqueue.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\mstream.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\numformatter.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\object.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\platform.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\platinfo.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\power.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\process.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ptr_scpd.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ptr_shrd.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\recguard.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\regex.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\rtti.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\scopedarray.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\scopedptr.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\scopeguard.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\secretstore.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\sharedptr.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\snglinst.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\sstream.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stack.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stackwalk.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stdpaths.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stdstream.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stockitem.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stopwatch.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\strconv.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stream.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\string.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stringimpl.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stringops.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\strvararg.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\sysopt.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\tarstrm.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\textbuf.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\textfile.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\thread.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\thrimpl.cpp" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\time.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\timer.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\tls.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\tokenzr.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\tracker.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\translation.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\txtstrm.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\typeinfo.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\types.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\unichar.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\uri.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ustring.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\utils.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\variant.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\vector.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\version.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\versioninfo.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\volume.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\weakref.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wfstream.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wx.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wxchar.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wxcrt.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wxcrtbase.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wxcrtvararg.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wxprec.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xlocale.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xti.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xti2.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xtistrm.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xtictor.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xtihandler.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xtiprop.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xtitypes.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\zipstrm.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\zstream.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\convertible.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\if.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\implicitconversion.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\int2type.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\movable.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\pod.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\removeref.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fswatcher.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\generic\fswatcher.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\lzmastream.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\localedefs.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\uilocale.h" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\event.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fs_mem.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\msgout.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\utilscmn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\basemsw.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\crashrpt.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\debughlp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\dde.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\dir.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\dlmsw.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\evtloopconsole.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\mimetype.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\power.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\regconf.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\registry.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\secretstore.cpp">
+      <ObjectFileName>$(IntDir)/__/__/src/msw/secretstore.cpp.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\snglinst.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\stackwalk.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\stdpaths.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\thread.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\timer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\utils.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\utilsexc.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\fswatcher.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\uilocale.cpp">
+      <ObjectFileName>$(IntDir)/__/__/src/msw/uilocale.cpp.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\apptrait.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\apptbase.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\chkconf.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\crashrpt.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\dde.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\debughlp.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\evtloopconsole.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\gccpriv.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\libraries.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\mimetype.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\private.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\regconf.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\registry.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\seh.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\stackwalk.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\stdpaths.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\winundef.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\winver.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\wrapcctl.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\wrapcdlg.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\wrapwin.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\fswatcher.h" />
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\main.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\volume.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/libs/base/CMakeFiles/wxbase.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu\wx\setup.h" />
+    <ResourceCompile Include="F:\Documents\rpi_server_app\include\src\msw\version.rc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ResourceCompile>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\genrcdefs.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\libs\base\CMakeFiles\wxbase.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\libs\base\CMakeFiles\wxbase.dir\Release\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Documents\rpi_server_app\include\ZERO_CHECK.vcxproj">
+      <Project>{910A0645-DE84-3AB8-9644-97A03E437170}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\Documents\rpi_server_app\include\libs\wxregex.vcxproj">
+      <Project>{05B4B2C2-CDB0-3455-988E-CEEE8424F6A1}</Project>
+      <Name>wxregex</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Documents\rpi_server_app\include\libs\wxzlib.vcxproj">
+      <Project>{51CA67BE-C527-3ACA-82DD-5BB054362AB6}</Project>
+      <Name>wxzlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

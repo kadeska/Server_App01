@@ -1,0 +1,982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\libs\base\CMakeFiles\wxbase.dir\cmake_pch.cxx">
+      <Filter>CMake</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\any.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\appbase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\arcall.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\arcfind.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\archive.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\arrstr.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\base64.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\clntdata.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\cmdline.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\config.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\convauto.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\datetime.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\datetimefmt.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\datstrm.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\dircmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\dynlib.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\dynload.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\encconv.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\evtloopcmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\extended.c">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\ffile.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\file.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fileback.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fileconf.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\filefn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\filename.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\filesys.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\filtall.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\filtfind.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fmapbase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fs_arc.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fs_filter.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\hash.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\hashmap.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\init.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\intl.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\ipcbase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\languageinfo.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\list.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\log.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\longlong.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\memory.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\mimecmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\module.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\mstream.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\numformatter.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\object.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\platinfo.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\powercmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\process.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\regex.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\secretstore.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stdpbase.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\sstream.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stdstream.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stopwatch.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\strconv.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stream.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\string.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stringimpl.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\stringops.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\strvararg.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\sysopt.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\tarstrm.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\textbuf.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\textfile.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\threadinfo.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\time.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\timercmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\timerimpl.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\tokenzr.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\translation.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\txtstrm.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\unichar.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\uri.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\ustring.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\variant.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\wfstream.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\wxcrt.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\wxprintf.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\xlocale.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\xti.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\xtistrm.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\zipstrm.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\zstream.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fswatchercmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\generic\fswatcherg.cpp">
+      <Filter>Generic Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\lzmastream.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\uilocale.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\event.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\fs_mem.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\msgout.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\common\utilscmn.cpp">
+      <Filter>Common Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\basemsw.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\crashrpt.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\debughlp.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\dde.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\dir.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\dlmsw.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\evtloopconsole.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\mimetype.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\power.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\regconf.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\registry.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\secretstore.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\snglinst.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\stackwalk.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\stdpaths.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\thread.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\timer.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\utils.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\utilsexc.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\fswatcher.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\uilocale.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\main.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\src\msw\volume.cpp">
+      <Filter>MSW Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\afterstd.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\any.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\anystr.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\app.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\apptrait.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\archive.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\arrimpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\arrstr.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\atomic.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\base64.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\beforestd.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\buffer.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\build.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\chartype.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\checkeddelete.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\chkconf.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\clntdata.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\cmdargs.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\cmdline.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\compiler.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\confbase.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\config.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\convauto.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\containr.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\cpp.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\crt.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\datetime.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\datstrm.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dde.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\debug.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\defs.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dir.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dlimpexp.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dlist.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dynarray.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dynlib.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\dynload.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\encconv.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\event.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\eventfilter.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\evtloop.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\evtloopsrc.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\except.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\features.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\flags.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ffile.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\file.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fileconf.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\filefn.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\filename.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\filesys.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fontenc.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fontmap.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fs_arc.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fs_filter.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fs_mem.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fs_zip.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\hash.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\hashmap.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\hashset.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\iconloc.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\init.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\intl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\iosfwrap.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ioswrap.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ipc.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ipcbase.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\kbdstate.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\language.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\link.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\list.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\listimpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\log.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\longlong.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\math.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\memconf.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\memory.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\memtext.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\mimetype.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\module.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\mousestate.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msgout.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msgqueue.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\mstream.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\numformatter.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\object.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\platform.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\platinfo.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\power.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\process.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ptr_scpd.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ptr_shrd.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\recguard.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\regex.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\rtti.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\scopedarray.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\scopedptr.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\scopeguard.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\secretstore.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\sharedptr.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\snglinst.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\sstream.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stack.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stackwalk.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stdpaths.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stdstream.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stockitem.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stopwatch.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\strconv.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stream.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\string.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stringimpl.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\stringops.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\strvararg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\sysopt.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\tarstrm.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\textbuf.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\textfile.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\thread.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\thrimpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\time.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\timer.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\tls.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\tokenzr.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\tracker.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\translation.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\txtstrm.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\typeinfo.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\types.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\unichar.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\uri.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\ustring.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\utils.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\variant.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\vector.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\version.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\versioninfo.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\volume.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\weakref.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wfstream.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wx.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wxchar.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wxcrt.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wxcrtbase.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wxcrtvararg.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\wxprec.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xlocale.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xti.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xti2.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xtistrm.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xtictor.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xtihandler.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xtiprop.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\xtitypes.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\zipstrm.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\zstream.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\convertible.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\if.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\implicitconversion.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\int2type.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\movable.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\pod.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\meta\removeref.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\fswatcher.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\generic\fswatcher.h">
+      <Filter>Generic Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\lzmastream.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\localedefs.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\uilocale.h">
+      <Filter>Common Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\apptrait.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\apptbase.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\chkconf.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\crashrpt.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\dde.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\debughlp.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\evtloopconsole.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\gccpriv.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\libraries.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\mimetype.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\private.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\regconf.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\registry.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\seh.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\stackwalk.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\stdpaths.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\winundef.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\winver.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\wrapcctl.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\wrapcdlg.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\wrapwin.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\fswatcher.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu\wx\setup.h">
+      <Filter>Setup Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\include\wx\msw\genrcdefs.h">
+      <Filter>MSW Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\libs\base\CMakeFiles\wxbase.dir\Debug\cmake_pch.hxx">
+      <Filter>CMake</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\libs\base\CMakeFiles\wxbase.dir\Release\cmake_pch.hxx">
+      <Filter>CMake</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Documents\rpi_server_app\include\build\cmake\lib\base\CMakeLists.txt">
+      <Filter>CMake</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="F:\Documents\rpi_server_app\include\src\msw\version.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake">
+      <UniqueIdentifier>{8DD14F8F-8929-3384-9F3C-3BE2F351E93C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Headers">
+      <UniqueIdentifier>{BA1527BA-8574-38DF-8EC9-31D8A4ABA5FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Sources">
+      <UniqueIdentifier>{8C1152BF-5BB7-36AB-A101-28F2B615DBCE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generic Headers">
+      <UniqueIdentifier>{DA5E8B71-5BFC-395D-AE2C-57D1DEEFE19B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generic Sources">
+      <UniqueIdentifier>{DADEA6D3-31D8-34F1-B401-421B175E6CD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSW Headers">
+      <UniqueIdentifier>{9FEE6162-A4A2-3F55-9553-88C849BDE20E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSW Sources">
+      <UniqueIdentifier>{668293EE-2FCB-3026-9501-1B52A90BF48F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{BA74B7F0-C6B0-34B6-B1D7-892DAF8E2E72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup Headers">
+      <UniqueIdentifier>{C44A7553-453F-3174-AC7B-8CD0FCD75852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{40436969-BFF1-3715-A992-4B2995CFFC75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

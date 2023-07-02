@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89CA8318-E39F-3592-9876-E51043E1E867}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>widgets</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Documents\rpi_server_app\include\lib\vc_x64_dll\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">widgets.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">widgets</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/lib/vc_x64_dll</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Documents\rpi_server_app\include\lib\vc_x64_dll\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">widgets.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">widgets</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/lib/vc_x64_dll</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\samples;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswud;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/Documents/rpi_server_app/include/samples/widgets.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;wxUSE_DPI_AWARE_MANIFEST=2;WX_PRECOMP;UNICODE;_UNICODE;__WXMSW__;WXUSINGDLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;wxUSE_DPI_AWARE_MANIFEST=2;WX_PRECOMP;UNICODE;_UNICODE;__WXMSW__;WXUSINGDLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\samples;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswud;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\samples;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswud;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying widgets data files...</Message>
+      <Command>setlocal
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/activityindicator.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/activityindicator.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/bmpbtn.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/bmpbtn.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/bmpcombobox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/bmpcombobox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/button.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/button.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/checkbox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/checkbox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/choice.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/choice.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/choicebk.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/choicebk.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/clrpicker.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/clrpicker.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/combobox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/combobox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/datepick.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/datepick.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/dirctrl.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/dirctrl.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/dirpicker.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/dirpicker.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/filepicker.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/filepicker.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/fontpicker.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/fontpicker.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/gauge.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/gauge.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/header.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/header.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/hyperlnk.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/hyperlnk.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/listbook.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/listbook.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/listbox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/listbox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/native.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/native.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/notebook.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/notebook.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/odcombobox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/odcombobox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/radiobox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/radiobox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/scrolbar.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/scrolbar.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/slider.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/slider.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/spinbtn.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/spinbtn.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/statbmp.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/statbmp.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/statbox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/statbox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/stattext.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/stattext.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/text.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/text.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/timepick.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/timepick.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/toggle.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/toggle.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/textctrl.cpp F:/Documents/rpi_server_app/include/lib/vc_x64_dll/textctrl.cpp
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/../image/toucan.png F:/Documents/rpi_server_app/include/lib/vc_x64_dll/toucan.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\vc_x64_dll\wxmsw32ud_core.lib;..\lib\vc_x64_dll\wxbase32ud.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;shlwapi.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;version.lib;ws2_32.lib;wininet.lib;oleacc.lib;uxtheme.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Documents/rpi_server_app/include/lib/vc_x64_dll/widgets.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Documents/rpi_server_app/include/lib/vc_x64_dll/widgets.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>F:\Documents\rpi_server_app\include\include\wx\msw\wx_dpi_aware_pmv2.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\samples;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>F:/Documents/rpi_server_app/include/samples/widgets.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;wxUSE_DPI_AWARE_MANIFEST=2;WX_PRECOMP;UNICODE;_UNICODE;__WXMSW__;WXUSINGDLL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;wxUSE_DPI_AWARE_MANIFEST=2;WX_PRECOMP;UNICODE;_UNICODE;__WXMSW__;WXUSINGDLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\samples;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Documents\rpi_server_app\include\samples;F:\Documents\rpi_server_app\include\lib\vc_x64_dll\mswu;F:\Documents\rpi_server_app\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying widgets data files...</Message>
+      <Command>setlocal
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/activityindicator.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/activityindicator.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/bmpbtn.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/bmpbtn.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/bmpcombobox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/bmpcombobox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/button.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/button.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/checkbox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/checkbox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/choice.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/choice.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/choicebk.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/choicebk.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/clrpicker.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/clrpicker.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/combobox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/combobox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/datepick.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/datepick.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/dirctrl.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/dirctrl.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/dirpicker.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/dirpicker.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/filepicker.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/filepicker.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/fontpicker.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/fontpicker.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/gauge.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/gauge.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/header.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/header.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/hyperlnk.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/hyperlnk.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/listbook.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/listbook.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/listbox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/listbox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/native.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/native.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/notebook.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/notebook.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/odcombobox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/odcombobox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/radiobox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/radiobox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/scrolbar.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/scrolbar.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/slider.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/slider.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/spinbtn.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/spinbtn.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/statbmp.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/statbmp.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/statbox.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/statbox.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/stattext.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/stattext.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/text.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/text.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/timepick.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/timepick.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/icons/toggle.xpm F:/Documents/rpi_server_app/include/lib/vc_x64_dll/icons/toggle.xpm
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/textctrl.cpp F:/Documents/rpi_server_app/include/lib/vc_x64_dll/textctrl.cpp
+if %errorlevel% neq 0 goto :cmEnd
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E copy F:/Documents/rpi_server_app/include/samples/widgets/../image/toucan.png F:/Documents/rpi_server_app/include/lib/vc_x64_dll/toucan.png
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\vc_x64_dll\wxmsw32u_core.lib;..\lib\vc_x64_dll\wxbase32u.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;winmm.lib;shell32.lib;shlwapi.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;rpcrt4.lib;advapi32.lib;version.lib;ws2_32.lib;wininet.lib;oleacc.lib;uxtheme.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Documents/rpi_server_app/include/lib/vc_x64_dll/widgets.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Documents/rpi_server_app/include/lib/vc_x64_dll/widgets.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>F:\Documents\rpi_server_app\include\include\wx\msw\wx_dpi_aware_pmv2.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Documents\rpi_server_app\include\build\cmake\samples\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Documents/rpi_server_app/include/build/cmake/samples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SF:/Documents/rpi_server_app/include -BF:/Documents/rpi_server_app/include --check-stamp-file F:/Documents/rpi_server_app/include/samples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Documents\rpi_server_app\include\build\cmake\samples\html.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Documents\rpi_server_app\include\samples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Documents/rpi_server_app/include/build/cmake/samples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\VisualStudioIDE\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SF:/Documents/rpi_server_app/include -BF:/Documents/rpi_server_app/include --check-stamp-file F:/Documents/rpi_server_app/include/samples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Documents\rpi_server_app\include\build\cmake\samples\html.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Documents\rpi_server_app\include\samples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\CMakeFiles\widgets.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/widgets.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/widgets.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\activityindicator.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\bmpcombobox.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\button.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\checkbox.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\choice.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\clrpicker.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\combobox.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\datepick.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\dirctrl.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\dirpicker.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\editlbox.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\filectrl.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\filepicker.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\fontpicker.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\gauge.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\headerctrl.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\hyperlnk.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\itemcontainer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\listbox.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\native.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\notebook.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\odcombobox.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\radiobox.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\searchctrl.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\slider.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\spinbtn.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\static.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\statbmp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\textctrl.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\timepick.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\toggle.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="F:\Documents\rpi_server_app\include\samples\widgets\widgets.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Documents/rpi_server_app/include/samples/CMakeFiles/widgets.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\samples\widgets\widgets.h" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\samples\widgets\itemcontainer.h" />
+    <ResourceCompile Include="F:\Documents\rpi_server_app\include\samples\sample.rc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ResourceCompile>
+    <ClInclude Include="F:\Documents\rpi_server_app\include\samples\CMakeFiles\widgets.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="F:\Documents\rpi_server_app\include\samples\CMakeFiles\widgets.dir\Release\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Documents\rpi_server_app\include\ZERO_CHECK.vcxproj">
+      <Project>{910A0645-DE84-3AB8-9644-97A03E437170}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\Documents\rpi_server_app\include\libs\base\wxbase.vcxproj">
+      <Project>{BB52A3AD-9B9E-3C42-B2D0-6EDC9B5BEDFE}</Project>
+      <Name>wxbase</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Documents\rpi_server_app\include\libs\core\wxcore.vcxproj">
+      <Project>{2648626A-77FF-3D55-9036-1F5B13D9EC02}</Project>
+      <Name>wxcore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
